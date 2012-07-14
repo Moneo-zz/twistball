@@ -29,6 +29,8 @@ ul {
 	margin-top:40px;
 	height:34px;
 	background-image:url('bar.png');
+    -moz-border-radius:60px / 30px;
+    -webkit-border-radius:60px / 30px;
 	border-radius:60px / 30px;
 
 }
@@ -58,7 +60,11 @@ li {
         }
 .serie {
 	border-radius:30px;
-	border:solid 1px #4c3333;
+	-moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border:solid 1px #4c3333;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888;
 	width:250px;
 	height:230px;
